@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia;
+package com.kevcruz.redditia;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
