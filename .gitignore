@@ -38,3 +38,4 @@ out/
 ### Environnement ###
 .env
 .env.local
+.env
