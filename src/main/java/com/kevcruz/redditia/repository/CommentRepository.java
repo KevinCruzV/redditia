@@ -1,7 +1,10 @@
-package com.kevcruzv.redditia.repository;
+package com.kevcruz.redditia.repository;
 
-import com.kevcruzv.redditia.model.Comment;
+import com.kevcruz.redditia.model.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface CommentRepository extends JpaRepository<Comment, Long> {
+
 }

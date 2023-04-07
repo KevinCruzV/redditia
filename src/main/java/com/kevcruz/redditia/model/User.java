@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.model;
+package com.kevcruz.redditia.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -21,6 +21,9 @@ public class User {
 
     @Column(name = "email", nullable = false)
     private String email;
+
+    @Column(name = "password", nullable = false)
+    private String password;
 
     @Column(name = "created", nullable = false)
     private Instant created;

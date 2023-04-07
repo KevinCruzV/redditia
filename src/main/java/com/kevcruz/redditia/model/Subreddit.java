@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.model;
+package com.kevcruz.redditia.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

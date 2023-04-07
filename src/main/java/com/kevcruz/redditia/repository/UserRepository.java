@@ -1,7 +1,9 @@
-package com.kevcruzv.redditia.repository;
+package com.kevcruz.redditia.repository;
 
-import com.kevcruzv.redditia.model.VerifToken;
+import com.kevcruz.redditia.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface UserRepository extends JpaRepository<VerifToken, Long> {
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
 }

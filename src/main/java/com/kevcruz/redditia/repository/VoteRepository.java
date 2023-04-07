@@ -1,7 +1,9 @@
-package com.kevcruzv.redditia.repository;
+package com.kevcruz.redditia.repository;
 
-import com.kevcruzv.redditia.model.Vote;
+import com.kevcruz.redditia.model.Vote;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface VoteRepository extends JpaRepository<Vote, Long> {
 }

@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.model;
+package com.kevcruz.redditia.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,13 +19,13 @@ public class VerifToken {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
-
-
+    @Column(name = "token", nullable = false)
     private String token;
 
     @OneToOne(fetch = LAZY)
     private User user;
 
+    @Column(name = "expiryDate", nullable = false)
     private Instant expiryDate;
 
 }

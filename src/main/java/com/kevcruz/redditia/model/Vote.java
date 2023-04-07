@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.model;
+package com.kevcruz.redditia.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -11,10 +11,12 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Table(name = "vote")
 public class Vote {
     @Id
     @GeneratedValue(strategy = IDENTITY)
-    private Long voteId;
+    private Long id;
+
     private VoteType voteType;
 
     @ManyToOne(fetch = FetchType.LAZY)

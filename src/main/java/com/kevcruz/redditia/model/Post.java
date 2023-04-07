@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.model;
+package com.kevcruz.redditia.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,6 +10,7 @@ import java.time.Instant;
 
 @Data
 @Entity
+@Table(name = "post")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor

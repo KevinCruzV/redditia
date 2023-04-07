@@ -1,6 +1,6 @@
-package com.kevcruzv.redditia.repository;
+package com.kevcruz.redditia.repository;
 
-import com.kevcruzv.redditia.model.Post;
+import com.kevcruz.redditia.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

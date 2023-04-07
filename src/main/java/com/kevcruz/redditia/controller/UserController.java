@@ -1,4 +1,4 @@
-package com.kevcruzv.redditia.controller;
+package com.kevcruz.redditia.controller;
 
 public class UserController {
 }
